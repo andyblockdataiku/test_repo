@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1645624962781
+    "lastModifiedOn": 1645625058659
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,29 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "sepal length (cm)",
+        "type": "double"
+      },
+      {
+        "name": "sepal width (cm)",
+        "type": "double"
+      },
+      {
+        "name": "petal length (cm)",
+        "type": "double"
+      },
+      {
+        "name": "petal width (cm)",
+        "type": "double"
+      },
+      {
+        "name": "target",
+        "type": "double"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
