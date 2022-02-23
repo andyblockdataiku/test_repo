@@ -18,4 +18,4 @@ iris_dataset_prepared = dataiku.Dataset("iris_dataset_prepared")
 iris_dataset_prepared.write_with_schema(iris_dataset_prepared_df)
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-to_csv(iris_dataset_prepared_df, '~/Downloads')
+save_to_csv(iris_dataset_prepared_df, '~/Downloads')
