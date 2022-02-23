@@ -3,6 +3,7 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import to_csv
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs
@@ -15,3 +16,6 @@ iris_dataset_prepared_df = iris_dataset_python_df[iris_dataset_python_df['sepal 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 iris_dataset_prepared = dataiku.Dataset("iris_dataset_prepared")
 iris_dataset_prepared.write_with_schema(iris_dataset_prepared_df)
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+to_csv(iris_dataset_prepared_df, '~/Downloads')
