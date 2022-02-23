@@ -12,7 +12,7 @@ iris_dataset_python_df = iris_dataset_python.get_dataframe()
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
-iris_dataset_prepared_df = iris_dataset_python_df # For this sample code, simply copy input to output
+iris_dataset_prepared_df = iris_dataset_python_df[iris_dataset_python_df['sepal']] # For this sample code, simply copy input to output
 
 
 # Write recipe outputs
