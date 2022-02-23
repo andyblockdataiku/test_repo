@@ -57,8 +57,9 @@
     },
     "codeEnvs": {
       "python": {
-        "mode": "INHERIT",
-        "preventOverride": false
+        "mode": "EXPLICIT_ENV",
+        "preventOverride": false,
+        "envName": "RBC_demo"
       },
       "r": {
         "mode": "INHERIT",
@@ -180,6 +181,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1645633532586
   },
   "creationTag": {
     "versionNumber": 0,
