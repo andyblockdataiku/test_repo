@@ -1,5 +1,0 @@
-import dataiku
-import pandas as pd
-
-def to_csv(input_dataset, output_path):
-    
