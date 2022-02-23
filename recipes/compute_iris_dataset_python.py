@@ -11,8 +11,6 @@ iris = load_iris()
 iris_dataset_python_df = pd.DataFrame(data= np.c_[iris['data'], iris['target']], 
                                       columns= iris['feature_names'] + ['target'])
 
-# iris_dataset_python_df = iris_dataset_python_df[iris_dataset_python_df['sepal width (cm)'] >= 3.0]
-
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Write recipe outputs
 iris_dataset_python = dataiku.Dataset("iris_dataset_python")
