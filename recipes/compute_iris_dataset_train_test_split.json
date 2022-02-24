@@ -34,17 +34,21 @@
         {
           "ref": "iris_dataset_train",
           "appendMode": false
+        },
+        {
+          "ref": "iris_dataset_test",
+          "appendMode": false
         }
       ]
     }
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1645715317329
+    "lastModifiedOn": 1645715343439
   },
   "creationTag": {
     "versionNumber": 0,
